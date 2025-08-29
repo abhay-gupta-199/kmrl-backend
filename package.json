@@ -1,0 +1,35 @@
+{
+  "name": "kmrl-backend",
+  "version": "1.0.0",
+  "description": "KMRL backend",
+  "homepage": "https://github.com/abhay-gupta-199/kmrl-backend#readme",
+  "bugs": {
+    "url": "https://github.com/abhay-gupta-199/kmrl-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhay-gupta-199/kmrl-backend.git"
+  },
+  "license": "ISC",
+  "author": "Abhay Gupta",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
